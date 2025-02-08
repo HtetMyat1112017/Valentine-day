@@ -77,3 +77,13 @@ span{
     color: rgb(215, 15, 15);
     
 }
+
+@media screen and (max-width:500px){
+    .text{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        font-weight: 800;
+        color: rgb(215, 15, 15);
+        margin-bottom: 120px;
+    }
+}

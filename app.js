@@ -22,10 +22,11 @@ btnNo.addEventListener('mouseover',()=>{
    btnNo.style.top=j+'px';
    btnNo.style.right=i-'px';
    btnNo.style.bottom=j-'px';
+    
+   let text=['Bae stop!','Are you sure?','plz click yes bae','Stop clicking no bae!!!!' ];
 
-   if(true){
-        span.innerHTML="Bae Stop Doing This"
-   }
-
+   texts=text[(Math.floor(Math.random() * (text.length)))];
+   
+    span.innerHTML=texts
 });
-
+   
