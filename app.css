@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    background-image: url('https://wallpapers.com/images/featured/cute-valentines-day-qk2iz667pkuatb1n.jpg');
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(215, 15, 15);
+}
+button{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 20px;
+    position: absolute;
+}
+button:nth-child(1){
+    margin-left:-100px ;
+}
+.btn-yes{
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(252, 66, 97);
+    margin-right: 20px;
+    padding: 10px 20px 10px 20px;
+
+}
+.btn-yes:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 11px 21px 11px 21px;
+    cursor:pointer;
+}
+.btn-no{
+    border-radius: 10px;
+    border: none;
+    color: black;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+}
+.btn-no:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 11px 21px 11px 21px;
+    cursor: pointer;
+}
+img{
+    display: none;
+}
+.show{
+    display: block !important;
+}
+span{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(215, 15, 15);
+    
+}
